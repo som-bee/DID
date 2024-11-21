@@ -1,15 +1,6 @@
 {
   "@context": "https://w3id.org/security/v2",
   "type": "RsaVerificationKey2018",
-  "id": "https://sombee.github.io/DID/mock-rsa-sombee.json",
-  "controller": "https://sombee.github.io/DID/mock-rsac-sombee.json",
-  "publicKeyPem": "-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv1uanrifmvK8YV7MdLL5
-1D86QoJcptJ9883UZkpmL/P90lPuJgxh7jjoAVcYYyoAfrqG40LKJv9nvSlxQ1hn
-D8RYn1Ivo94D5qRF0d6TJ0rMps5jAFBRQydlbs24tddGvcp4Fu1oGYnVkiv/NfDa
-q/ej6VsGIuBhWcACaZNIS9oowZepzYqUbekLCFpHNV/SPHVFdqtNhCe0a/fmhzxt
-Oi68BJkcNGdSSvWsHBA6W8Jn/P9+dpCpOolwJJdmK12wwaXfsPZiu3E5uElH6q+b
-1Qs4oi9p5zhYXIDEPuAlW7GmJ4S9eHqa63ouQe1LsIeEBG3+a+prXDjGuhDmKWMf
-NwIDAQAB
------END PUBLIC KEY-----"
-}
+  "id": "https://vharsh.github.io/DID/mock-rsa-piyush.json",
+  "controller": "https://vharsh.github.io/DID/mock-rsac-piyush.json",
+  "publicKeyPem": "-----BEGIN PUBLIC KEY-----\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt5r4PuooZ5AEu6f1VhOK\r\nusdbUkD4/3c8XRUWfbm/YI+p8uY7IRhaHuMxizHo2ANX0ql+7sbwgODZ1OxOxwIx\r\nKhyOndK8g6Wx1Va7mw3VSyZl3RFV1ab1OfSsYOb5ezJ4IHJr4YpATg3bQdHvq9Cf\r\nnfNBAVkcnKpqhAPb6T766SPiL6faiNCFoUKaH5diuWBR8VQ+fVCDSw4Xt36Pyovf\r\n2HUkSm7vrx7WTU5m7syCX+kmRVEzeOrljqYPg1vRlaDa2kKBevTUywWrO92iEfrN\r\naj3SziMaFMmmVDknT6itrVLxEsfoDYnGuyyh8X48fnIO6jxqYd2K0iYFXObi4HyZ\r\nxQIDAQAB\r\n-----END PUBLIC KEY-----"
