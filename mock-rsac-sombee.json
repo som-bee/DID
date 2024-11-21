@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/security/v2",
+    "id": "https://sombee.github.io/DID/mock-rsac-sombee.json",
+    "assertionMethod": [
+        "https://sombee.github.io/DID/mock-rsa-sombee.json"
+    ]
+}
