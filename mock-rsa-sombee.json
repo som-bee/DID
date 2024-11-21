@@ -1,0 +1,15 @@
+{
+  "@context": "https://w3id.org/security/v2",
+  "type": "RsaVerificationKey2018",
+  "id": "https://sombee.github.io/DID/mock-rsa-sombee.json",
+  "controller": "https://sombee.github.io/DID/mock-rsac-sombee.json",
+  "publicKeyPem": "-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv1uanrifmvK8YV7MdLL5
+1D86QoJcptJ9883UZkpmL/P90lPuJgxh7jjoAVcYYyoAfrqG40LKJv9nvSlxQ1hn
+D8RYn1Ivo94D5qRF0d6TJ0rMps5jAFBRQydlbs24tddGvcp4Fu1oGYnVkiv/NfDa
+q/ej6VsGIuBhWcACaZNIS9oowZepzYqUbekLCFpHNV/SPHVFdqtNhCe0a/fmhzxt
+Oi68BJkcNGdSSvWsHBA6W8Jn/P9+dpCpOolwJJdmK12wwaXfsPZiu3E5uElH6q+b
+1Qs4oi9p5zhYXIDEPuAlW7GmJ4S9eHqa63ouQe1LsIeEBG3+a+prXDjGuhDmKWMf
+NwIDAQAB
+-----END PUBLIC KEY-----"
+}
