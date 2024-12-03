@@ -14,7 +14,7 @@
             "type": "Ed25519VerificationKey2020",
             "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
             "controller": "did:web:som-bee.github.io:DID:harsh",
-            "publicKeyMultibase": "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBErQ8LdC45XsR8kMdef1SgJmFXP7Yn4EGYrqpGN7cEEBNDfjzVUztaNxk8tah5ArWprqTiwGQitPv4mKyykUdy315y4QkSyVnYUCM3uiFkEg8tyNZyBbxMhucKPmTXoRp5mGnhba8LhPmwzgioJKfBTNadS36CX6hmqo1qrhF4S8UZsUgeTWW2k4vmVEbtdimHm6u4UkGetEckhyATWCgkRK7mJbsjK3p62cvZq712qxsSusCbAwpZbRTp8h1QMCSQwYUomgcou4QViLEyuYyCNHAKWhycLpADFZrnXHszgSVXmF8RANG9itEYeVKJJxdHSTsFx2jPCMcS8UkASXFofMREwPqqSBx25ng"
+            "publicKeyMultibase": "zHKDDieWkPFCh75AnneupzyD3xKqFukVtDbdQH5kzFbE9"
         }
     ],
     "authentication": [
