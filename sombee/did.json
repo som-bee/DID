@@ -1,26 +1,23 @@
 {
-    "@context": [
-        "https://www.w3.org/ns/did/v1"
-    ],
-    "id": "did:web:som-bee.github.io:DID:sombee",
-    "alsoKnownAs": [
-        "testUUID",
-        "test@gmail.com"
-    ],
-    "service": [],
-    "verificationMethod": [
-        {
-            "id": "did:web:som-bee.github.io:DID:sombee#key-0",
-            "type": "Ed25519VerificationKey2020",
-            "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
-            "controller": "did:web:som-bee.github.io:DID:sombee",
-            "publicKeyMultibase": "z6MkfYzr1vRqdLo1ftx9WTPedYtuBEsr9V66XdeVEu6KPSwR"
-        }
-    ],
-    "authentication": [
-        "did:web:som-bee.github.io:DID:sombee#key-0"
-    ],
-    "assertionMethod": [
-        "did:web:som-bee.github.io:DID:sombee#key-0"
-    ]
+  "assertionMethod": [
+    "did:web:som-bee.github.io:DID:sombee#key-0"
+  ],
+  "service": [],
+  "id": "did:web:som-bee.github.io:DID:sombee",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkfimE8VjbWzD4moEoZcSV9jJVDEjiL55SPvNTcorbWdbw",
+      "controller": "did:web:som-bee.github.io:DID:sombee",
+      "id": "did:web:som-bee.github.io:DID:sombee#key-0",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:som-bee.github.io:DID:sombee#key-0"
+  ]
 }
