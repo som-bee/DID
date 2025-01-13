@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "EmploymentCredential": {
+            "@id": "https://example.com/employment-letter.json#EmploymentCredential"
+        },
+        "fullName": "schema:name",
+        "dateOfBirth": "schema:birthDate",
+        "address": "schema:address",
+        "employerName": "schema:organizationName",
+        "employerRegId": "schema:identifier",
+        "employerContactName": "schema:contactName",
+        "employerContactNumber": "schema:telephone",
+        "contractStartDate": "schema:startDate",
+        "contractEndDate": "schema:endDate",
+        "photo": "schema:image",
+        "employeeID": "schema:identifier"
+    }
+}
