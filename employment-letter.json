@@ -5,7 +5,7 @@
         "type": "@type",
         "schema": "https://schema.org/",
         "EmploymentCredential": {
-            "@id": "https://example.com/employment-letter.json#EmploymentCredential"
+            "@id": "https://som-bee.github.io/DID/employment-letter.json#EmploymentCredential"
         },
         "fullName": "schema:name",
         "dateOfBirth": "schema:birthDate",
