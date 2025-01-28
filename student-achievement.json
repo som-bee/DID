@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "StudentAccomplishmentCredential": {
+            "@id": "https://som-bee.github.io/DID/student-achievement.json#StudentAccomplishmentCredential"
+        },
+        "institutionName": "schema:organizationName",
+        "studentName": "schema:name",
+        "degreePursued": "schema:educationalProgram",
+        "graduationYear": "schema:endDate",
+        "certificateTitle": "schema:award",
+        "placementSecured": "schema:position",
+        "clubName": "schema:memberOf",
+        "comments": "schema:description",
+        "studentID": "schema:identifier",
+        "photo": "schema:image"
+    }
+}
