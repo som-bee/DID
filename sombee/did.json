@@ -6,7 +6,7 @@
   "id": "did:web:som-bee.github.io:DID:sombee",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6Mkh14xwVimku9tu9cDrdmTDHfapT1VEhpMr4PNLqFbSSFV",
+      "publicKeyMultibase": "z6Mkj1spyoXhMDmM83cLTDaGJaSahHqYo3c2Azwp7pLu93Xq",
       "controller": "did:web:som-bee.github.io:DID:sombee",
       "id": "did:web:som-bee.github.io:DID:sombee#key-0",
       "type": "Ed25519VerificationKey2020",
