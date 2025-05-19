@@ -6,7 +6,7 @@
   "id": "did:web:som-bee.github.io:DID:educerts",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "zvBXVOzgPpJo21uqLCvyO+a0SpSgZ/zvkkGexAmyhqJY=",
+      "publicKeyMultibase": "z6MkgY2k5k5gdwW9KX9GZ4Xw6jXN9h5uJ7kQ4gR2bFpA3eY",
       "controller": "did:web:som-bee.github.io:DID:educerts",
       "id": "did:web:som-bee.github.io:DID:educerts#key-1",
       "type": "Ed25519VerificationKey2020",
