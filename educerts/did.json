@@ -1,0 +1,7 @@
+{
+  "id": "did:example:issuer123#key-1",
+  "type": "Ed25519VerificationKey2020", // Or Ed25519VerificationKey2018
+  "controller": "did:example:issuer123",
+  "publicKeyMultibase": "zYOUR_NEW_PUBLIC_KEY_IN_MULTIBASE_FORMAT" // e.g., z + Base58BTC(0xed01 + new_public_key_bytes)
+  // "publicKeyBase64": "vBXVOzgPpJo21uqLCvyO+a0SpSgZ/zvkkGexAmyhqJY="
+}
