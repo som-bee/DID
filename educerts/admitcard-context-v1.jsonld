@@ -4,7 +4,8 @@
     "@protected": true,
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "https://schema.org/",
-    "educerts": "https://your-issuer-domain.com/terms#",
+    "educertsterms": "https://som-bee.github.io/DID/educerts/terms#",
+
     "VerifiableCredential": "https://www.w3.org/2018/credentials#VerifiableCredential",
     "Ed25519Signature2020": "https://w3id.org/security#Ed25519Signature2020",
     "credentialSubject": {
@@ -23,19 +24,33 @@
       "@id": "https://w3id.org/security#proof",
       "@type": "@id"
     },
-    "AdmitCard": {
-      "@id": "educerts:AdmitCardCredential"
+    "name": "schema:name",
+    "description": "schema:description",
+    "expirationDate": {
+        "@id": "schema:expires",
+        "@type": "xsd:dateTime"
     },
-    "ExaminationCenterDetails": "educerts:ExaminationCenterDetails",
-    "ExamSubjectDetails": "educerts:ExamSubjectDetails",
+    "id": "@id",
+    "type": "@type",
+
+    "AdmitCard": {
+      "@id": "#AdmitCardCredential"
+    },
+    "ExaminationCenter": {
+      "@id": "#ExaminationCenterType"
+    },
+    "ExaminationSubject": {
+      "@id": "#ExaminationSubjectType"
+    },
+
     "candidateName": "schema:name",
-    "fathersName": "educerts:fathersName",
-    "mothersName": "educerts:mothersName",
+    "fathersName": "educertsterms:fathersName",
+    "mothersName": "educertsterms:mothersName",
     "dateOfBirth": {
       "@id": "schema:birthDate"
     },
     "medium": "schema:inLanguage",
-    "stream": "educerts:academicStream",
+    "stream": "educertsterms:academicStream",
     "gender": {
       "@id": "schema:gender"
     },
@@ -47,23 +62,23 @@
       "@id": "schema:url",
       "@type": "@id"
     },
-    "rollNumber": "educerts:rollNumber",
-    "enrollmentNumber": "educerts:enrollmentNumber",
-    "centerNumber": "educerts:centerNumber",
-    "schoolNumber": "educerts:schoolNumber",
-    "formSerialNumber": "educerts:formSerialNumber",
-    "candidateType": "educerts:candidateType",
-    "examinationTime": "educerts:examinationTimeSlot",
+    "rollNumber": "educertsterms:rollNumber",
+    "enrollmentNumber": "educertsterms:enrollmentNumber",
+    "centerNumber": "educertsterms:centerNumber",
+    "schoolNumber": "educertsterms:schoolNumber",
+    "formSerialNumber": "educertsterms:formSerialNumber",
+    "candidateType": "educertsterms:candidateType",
+    "examinationTime": "educertsterms:examinationTimeSlot",
     "examCenter": {
-      "@id": "educerts:examinationCenter",
-      "@type": "educerts:ExaminationCenterDetails"
+      "@id": "educertsterms:examinationCenter",
+      "@type": "#ExaminationCenterType"
     },
     "examinationSchedule": {
-      "@id": "educerts:examinationSchedule",
+      "@id": "educertsterms:examinationSchedule",
       "@container": "@list",
-      "@type": "educerts:ExamSubjectDetails"
+      "@type": "#ExaminationSubjectType"
     },
-    "subjectCode": "educerts:subjectCode",
+    "subjectCode": "educertsterms:subjectCode",
     "subjectName": "schema:name",
     "examDate": {
       "@id": "schema:startDate",
