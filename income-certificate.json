@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "IncomeCertificateCredential": {
+            "@id": "https://som-bee.github.io/DID/income-certificate.json#IncomeCertificateCredential"
+        },
+        "fullName": "schema:name",
+        "guardianName": "schema:name",
+        "address": "schema:address",
+        "financialYear": "schema:text",
+        "annualIncome": "schema:value",
+        "incomeInWords": "schema:text",
+        "certificateNumber": "schema:identifier",
+        "dateOfIssue": "schema:dateIssued",
+        "issuingAuthority": "schema:issuedBy"
+    }
+}
