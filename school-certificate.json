@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "SchoolPassCredential": {
+            "@id": "https://som-bee.github.io/DID/school-certificate.json#SchoolPassCredential"
+        },
+        "fullName": "schema:name",
+        "schoolName": "schema:provider",
+        "boardName": "schema:provider",
+        "passingYear": "schema:dateCreated",
+        "stream": "schema:educationalCredentialAwarded",
+        "subjects": "schema:courseCode",
+        "percentage": "schema:value",
+        "grade": "schema:ratingValue",
+        "dateOfIssue": "schema:dateIssued",
+        "issuingAuthority": "schema:issuedBy"
+    }
+}
