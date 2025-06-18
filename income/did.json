@@ -6,7 +6,7 @@
   "id": "did:web:som-bee.github.io:DID:income",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MknPwxZYuN5nd5Wt5RvwdtutTwYYVN1npiioLKZYzUuCUR",
+      "publicKeyMultibase": "z6MkvUGYSqe4kD7mBGDUUcsWb6rhaxEKZh5kHMSsqEKHUxFC",
       "controller": "did:web:som-bee.github.io:DID:income",
       "id": "did:web:som-bee.github.io:DID:income#key-0",
       "type": "Ed25519VerificationKey2020",
