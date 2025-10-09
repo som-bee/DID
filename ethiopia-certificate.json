@@ -7,12 +7,12 @@
         "EthiopiaCredential": {
             "@id": "https://som-bee.github.io/DID/ethiopia-certificate.json#EthiopiaCredential"
         },
-        "fullName": "schema:name",
+        "fullName": "schema:fullName",
         "address": "schema:address",
         "universityName": "schema:universityName",
         "degree": "schema:degree",
         "stream": "schema:stream",
         "dayOfIssuance": "schema:dayOfIssuance",
-        "certificateId": "schema:identifier"
+        "certificateId": "schema:certificateId"
     }
 }
