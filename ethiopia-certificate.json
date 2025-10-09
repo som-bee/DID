@@ -1,47 +1,18 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "@protected": true,
-    "type": "@type",
-    "schema": "https://schema.org/",
-    "IdentityCredential": {
-      "@id": "https://som-bee.github.io/DID/identity.json#IdentityCredential"
-    },
-    "EthiopiaCredential": {
-      "@id": "https://som-bee.github.io/DID/ethiopia-certificate.json#EthiopiaCredential"
-    },
-    "fullName": "schema:name",
-    "dateOfBirth": "schema:birthDate",
-    "gender": "schema:gender",
-    "address": "schema:address",
-    "fatherName": "schema:name",
-    "motherName": "schema:name",
-    "phoneNumber": "schema:telephone",
-    "email": "schema:email",
-    "photo": "schema:image",
-    "dateOfIssue": "schema:dateIssued",
-    "expiryDate": "schema:expires",
-    "issuingAuthority": "schema:issuedBy",
-
-    "universityName": {
-      "@id": "https://som-bee.github.io/DID/vocab#universityName",
-      "@type": "Text"
-    },
-    "degree": {
-      "@id": "https://som-bee.github.io/DID/vocab#degree",
-      "@type": "Text"
-    },
-    "stream": {
-      "@id": "https://som-bee.github.io/DID/vocab#stream",
-      "@type": "Text"
-    },
-    "dayOfIssuance": {
-      "@id": "https://som-bee.github.io/DID/vocab#dayOfIssuance",
-      "@type": "Date"
-    },
-    "certificateId": {
-      "@id": "https://som-bee.github.io/DID/vocab#certificateId",
-      "@type": "Text"
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "EthiopiaCredential": {
+            "@id": "https://som-bee.github.io/DID/ethiopia-certificate.json#EthiopiaCredential"
+        },
+        "fullName": "schema:name",
+        "address": "schema:address",
+        "universityName": "schema:name",
+        "degree": "schema:educationalLevel",
+        "stream": "schema:about",
+        "dayOfIssuance": "schema:dateIssued",
+        "certificateId": "schema:identifier"
     }
-  }
 }
