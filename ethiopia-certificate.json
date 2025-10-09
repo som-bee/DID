@@ -5,7 +5,7 @@
         "type": "@type",
         "schema": "https://schema.org/",
         "EthiopiaCredential": {
-            "@id": "https://som-bee.github.io/DID/employment-letter.json#EthiopiaCredential"
+            "@id": "https://som-bee.github.io/DID/ethiopia-certificate.json#EthiopiaCredential"
         },
         "fullName": "schema:name",
         "address": "schema:address",
